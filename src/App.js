@@ -18,15 +18,17 @@ class App extends Component {
       <Header />
   </Row>
   <Row>
-      <ScoreHeader />
+    <Col lg="12" className="centerss">
+     <ScoreHeader />
+    </Col>
   </Row>
   <Row>
-    <Col md="6" className="centerss">
+    <Col md="6" className="centerss mt-5">
      <AdOne />
     </Col>
   </Row>
   <Row>
-    <Col lg="6" className="centerss">
+    <Col sm="4" className="centerss mb-5 mt-5">
      <BoxScore />
     </Col>
   </Row>

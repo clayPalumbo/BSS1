@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
   margin: 0px;
@@ -5,7 +6,6 @@
 .centerss {
   margin: auto;
   background-color: white;
-  margin-top: 25px;
   padding: 0px;
 
 }
@@ -30,5 +30,53 @@ body {
 .col-sm-3 {
   margin: auto;
 }
+.ui.table {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
 
+.space {
+  color: #f9fafb;
+}
+th {
+  /* font-family: 'bebasregular'; */
+  text-align: center;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  font-size: 10px;
 
+}
+td {
+  /* font-family: 'bebasregular'; */
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  font-size: 10px;
+
+}
+.content {
+  font-size: 10px;
+  color: #0561b0;
+}
+h3 {
+  background-color: rgb(0, 0, 0, .0);
+}
+.img2 {
+  width: 10% !important;
+}
+.img3 {
+  width: 80% !important;
+}
+.record {
+  font-size: 10px;
+}
+/* .border1 {
+  border-radius: 15px 50px 30px 5px;
+  background-color: #0561b0
+} */
+.ui.table thead tr:first-child>th:first-child {
+  border-radius:0 0 0 0
+}
+.ui.table thead tr:first-child>th:last-child { 
+  border-radius:0 0 0 0
+}

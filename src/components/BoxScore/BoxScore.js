@@ -1,74 +1,160 @@
-import React from "react";
-import { makeData } from "../Utils/Utils";
+import React from 'react'
+import { Header, Image, Table } from 'semantic-ui-react'
+import sox from './../../img/Sox.png';
+import blue from './../../img/bluejays.png';
+import styles from './../Utils/Utils'
 
-// Import React Table
-import ReactTable from "react-table";
-import "react-table/react-table.css";
 
-class BoxScore extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            data: makeData()
-        };
-    }
-    render() {
-        const { data } = this.state;
-        return (
-            <div>
-                <ReactTable className="text-center"
-                    data={data}
-                    columns={[
-                        {
-                            Header: "Batter",
-                            accessor: "firstName",
-                        },
-                        {
-                            Header: "Last Name",
-                            id: "lastName",
-                            accessor: d => d.lastName
-                        },
-                        {
-                            Header: "AB",
-                            accessor: "ab"
-                        },
-                        {
-                            Header: "R",
-                            accessor: "ab"
-                        },
-                        {
-                            Header: "H",
-                            accessor: "ab"
-                        },
-                        {
-                            Header: "AB",
-                            accessor: "ab"
-                        },
-                        {
-                            Header: "R",
-                            accessor: "ab"
-                        },
-                        {
-                            Header: "H",
-                            accessor: "ab"
-                        },
-                       {
-                            Header: "Status",
-                            accessor: "status"
+const BoxScore = () => (
+<div className="border1">
+{/* <img className="img2" style={{styles}}src={blue} alt="sox" /> */}
+ 
 
-                        },
-                        {
-                            Header: "Visits",
-                            accessor: "visits"
-                        }
-                    ]}
-                    defaultPageSize={10}
-                    className="-striped -highlight"
-                />
-                <br />
-            </div>
-        );
-    }
-}
-export default BoxScore;
+  <h3 className="pt-3 pl-4"><img className="img2" src={sox} alt={`Sox Profile Pic`}/> Boston Red Socks</h3>
+<Table singleLine>
+    <Table.Header>
+      <Table.Row>
+        <Table.HeaderCell>BATTERS <span className="space">********</span></Table.HeaderCell>
+        <Table.HeaderCell>AB</Table.HeaderCell>
+        <Table.HeaderCell>R</Table.HeaderCell>
+        <Table.HeaderCell>H</Table.HeaderCell>
+        <Table.HeaderCell>RBI</Table.HeaderCell>
+        <Table.HeaderCell>BB</Table.HeaderCell>
+        <Table.HeaderCell>SO</Table.HeaderCell>
+        <Table.HeaderCell>LOB</Table.HeaderCell>
+        <Table.HeaderCell>AVG</Table.HeaderCell>
 
+      </Table.Row>
+    </Table.Header>
+
+    <Table.Body>
+      <Table.Row>
+        <Table.Cell>
+            <Header.Content>
+              M. Breda
+            </Header.Content>
+        </Table.Cell>
+        <Table.Cell>3</Table.Cell>
+        <Table.Cell>2</Table.Cell>
+        <Table.Cell>0</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+
+      </Table.Row>
+      <Table.Row>
+        <Table.Cell>
+            <Header.Content>
+              S. Matthew
+            </Header.Content>
+        </Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+
+      </Table.Row>
+      <Table.Row>
+        <Table.Cell>
+            <Header.Content>
+              B. Lindsay
+            </Header.Content>
+        </Table.Cell>
+        <Table.Cell>12</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+      </Table.Row>
+      <Table.Row>
+        <Table.Cell>
+            <Header.Content className="tableFont">
+              J. Mark
+            </Header.Content>
+        </Table.Cell>
+        <Table.Cell>11</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+      </Table.Row>
+      <Table.Row>
+        <Table.Cell>
+            <Header.Content>
+              C. Lena
+            </Header.Content>
+        </Table.Cell>
+        <Table.Cell>3</Table.Cell>
+        <Table.Cell>2</Table.Cell>
+        <Table.Cell>0</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+      </Table.Row>
+      <Table.Row>
+        <Table.Cell>
+            <Header.Content>
+              K. Matthew
+            </Header.Content>
+        </Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+
+      </Table.Row>
+      <Table.Row>
+        <Table.Cell>
+            <Header.Content>
+              A. Lindsay
+            </Header.Content>
+        </Table.Cell>
+        <Table.Cell>12</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+      </Table.Row>
+      <Table.Row>
+        <Table.Cell>
+            <Header.Content>
+              D. Mark
+            </Header.Content>
+        </Table.Cell>
+        <Table.Cell>11</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>15</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+        <Table.Cell>22</Table.Cell>
+      </Table.Row>
+    </Table.Body>
+  </Table>
+  </div>
+
+)
+
+export default BoxScore

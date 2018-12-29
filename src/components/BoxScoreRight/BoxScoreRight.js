@@ -1,14 +1,12 @@
 import React from 'react'
 import { Header, Image, Table } from 'semantic-ui-react'
-import sox from './../../img/Sox.png';
-import styles from './../Utils/Utils'
+import blue from './../../img/bluejays.png';
 
 
-const BoxScore = () => (
-<div className="border1">
- 
+const BoxScoreRight = () => (
+<div> 
 
-  <h3 className="pt-3 pl-4"><img className="img2" src={sox} alt={`Sox Profile Pic`}/> Boston Red Socks</h3>
+  <h3 className="pt-3 pl-4"><img className="img2" src={blue} alt={`Blue Profile Pic`}/> Toronto Blue Jays</h3>
 <Table singleLine>
     <Table.Header>
       <Table.Row>
@@ -155,4 +153,4 @@ const BoxScore = () => (
 
 )
 
-export default BoxScore
+export default BoxScoreRight

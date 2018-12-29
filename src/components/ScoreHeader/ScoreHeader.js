@@ -9,7 +9,7 @@ const ScoreHeader = () => (
 
   <Row>
     <Col sm="3">
-      <h2 className="pt-2 mb-0 text-right">Boston Red Socks</h2><div className="record text-right pt-0">Away (45-34)<span className="text-danger font-weight-bold"> (-1.5)</span></div>
+      <h2 className="pt-2 mb-0 text-right">Boston Red Socks</h2><div className="record text-right pt-0">Away (68-30)<span className="text-danger font-weight-bold"> (-1.5)</span></div>
     </Col>
     <Col sm="1">
       <img className="img3 pt-3" src={sox} alt={`Sox Profile Pic`} />
@@ -27,7 +27,7 @@ const ScoreHeader = () => (
       <img className="img4 pt-3" src={blue} alt="sox" />
     </Col>
     <Col sm="3">
-      <h2 className="pt-2 mb-0 text-left">Toronto Blue Jays</h2><div className="record text-left pt-0">Home (55-24)<span className="text-success font-weight-bold"> (+1.5)</span></div>
+      <h2 className="pt-2 mb-0 text-left">Toronto Blue Jays</h2><div className="record text-left pt-0">Home (43-52)<span className="text-success font-weight-bold"> (+1.5)</span></div>
     </Col>
   </Row>
 )

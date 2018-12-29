@@ -34,7 +34,7 @@ class App extends Component {
           <Col sm='4' className='centerss pr-0 pb-4 mr-0 mb-5 mt-4 border1'>
             <BoxScoreLeft />
           </Col>
-          <Col sm='4' className='centerss pl-0 ml-0 mb-5 mt-4 border2'>
+          <Col sm='4' className='centerss pl-0 ml-0 mb-5 mt-4 border2 borderLeft'>
             <BoxScoreRight />
           </Col>
           <Col sm='3'>

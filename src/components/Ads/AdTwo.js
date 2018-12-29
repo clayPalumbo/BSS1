@@ -10,7 +10,7 @@ class AdTwo extends Component {
   render() {
     return (
       <div className="App">
-          <img src={ad2} className="header mb-5" alt="header" />
+          <a href="https://www.youtube.com/watch?v=_HmtqcECxQo"><img src={ad2} className="header mb-5" alt="header" /></a>
       </div>
     );
   }

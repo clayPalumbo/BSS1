@@ -18,7 +18,7 @@ const ScoreHeader = () => (
       <h1 className="text-center score">5</h1>
     </Col>
     <Col sm="1">
-      <h3 className="pt-2 mb-0 pb-0 text-center timeResult">Final</h3><div className="record text-center pt-0">12/26</div><div className="record text-center pt-0 text-success">TOT: 7</div>
+      <h3 className="pt-2 mb-0 pb-0 text-center timeResult">Top 12th</h3><div className="record text-center pt-0"></div><div className="record text-center pt-0 text-success">TOT: 7</div>
     </Col>
     <Col sm="1">
       <h1 className="text-center score">2</h1>

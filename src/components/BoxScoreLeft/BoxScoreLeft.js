@@ -35,11 +35,11 @@ const BoxScoreLeft = () => (
         <Table.Cell>3</Table.Cell>
         <Table.Cell>2</Table.Cell>
         <Table.Cell>0</Table.Cell>
-        <Table.Cell>22</Table.Cell>
-        <Table.Cell>22</Table.Cell>
-        <Table.Cell>22</Table.Cell>
-        <Table.Cell>22</Table.Cell>
-        <Table.Cell>22</Table.Cell>
+        <Table.Cell>0</Table.Cell>
+        <Table.Cell>0</Table.Cell>
+        <Table.Cell>0</Table.Cell>
+        <Table.Cell>0</Table.Cell>
+        <Table.Cell>.266</Table.Cell>
 
       </Table.Row>
       <Table.Row>
@@ -54,8 +54,8 @@ const BoxScoreLeft = () => (
         <Table.Cell>15</Table.Cell>
         <Table.Cell>15</Table.Cell>
         <Table.Cell>15</Table.Cell>
-        <Table.Cell>22</Table.Cell>
-        <Table.Cell>22</Table.Cell>
+        <Table.Cell>0</Table.Cell>
+        <Table.Cell>.287</Table.Cell>
 
       </Table.Row>
       <Table.Row>
@@ -70,8 +70,8 @@ const BoxScoreLeft = () => (
         <Table.Cell>15</Table.Cell>
         <Table.Cell>15</Table.Cell>
         <Table.Cell>15</Table.Cell>
-        <Table.Cell>22</Table.Cell>
-        <Table.Cell>22</Table.Cell>
+        <Table.Cell>0</Table.Cell>
+        <Table.Cell>.320</Table.Cell>
       </Table.Row>
       <Table.Row>
         <Table.Cell>
@@ -85,8 +85,8 @@ const BoxScoreLeft = () => (
         <Table.Cell>15</Table.Cell>
         <Table.Cell>15</Table.Cell>
         <Table.Cell>15</Table.Cell>
-        <Table.Cell>22</Table.Cell>
-        <Table.Cell>22</Table.Cell>
+        <Table.Cell>0</Table.Cell>
+        <Table.Cell>.227</Table.Cell>
       </Table.Row>
       <Table.Row>
         <Table.Cell>
@@ -97,11 +97,11 @@ const BoxScoreLeft = () => (
         <Table.Cell>3</Table.Cell>
         <Table.Cell>2</Table.Cell>
         <Table.Cell>0</Table.Cell>
-        <Table.Cell>22</Table.Cell>
-        <Table.Cell>22</Table.Cell>
-        <Table.Cell>22</Table.Cell>
-        <Table.Cell>22</Table.Cell>
-        <Table.Cell>22</Table.Cell>
+        <Table.Cell>0</Table.Cell>
+        <Table.Cell>0</Table.Cell>
+        <Table.Cell>0</Table.Cell>
+        <Table.Cell>0</Table.Cell>
+        <Table.Cell>.442</Table.Cell>
       </Table.Row>
       <Table.Row>
         <Table.Cell>
@@ -115,8 +115,8 @@ const BoxScoreLeft = () => (
         <Table.Cell>15</Table.Cell>
         <Table.Cell>15</Table.Cell>
         <Table.Cell>15</Table.Cell>
-        <Table.Cell>22</Table.Cell>
-        <Table.Cell>22</Table.Cell>
+        <Table.Cell>0</Table.Cell>
+        <Table.Cell>.412</Table.Cell>
 
       </Table.Row>
       <Table.Row>
@@ -131,8 +131,8 @@ const BoxScoreLeft = () => (
         <Table.Cell>15</Table.Cell>
         <Table.Cell>15</Table.Cell>
         <Table.Cell>15</Table.Cell>
-        <Table.Cell>22</Table.Cell>
-        <Table.Cell>22</Table.Cell>
+        <Table.Cell>0</Table.Cell>
+        <Table.Cell>.335</Table.Cell>
       </Table.Row>
       <Table.Row>
         <Table.Cell>
@@ -146,8 +146,19 @@ const BoxScoreLeft = () => (
         <Table.Cell>15</Table.Cell>
         <Table.Cell>15</Table.Cell>
         <Table.Cell>15</Table.Cell>
-        <Table.Cell>22</Table.Cell>
-        <Table.Cell>22</Table.Cell>
+        <Table.Cell>0</Table.Cell>
+        <Table.Cell>.334</Table.Cell>
+      </Table.Row>
+      <Table.Row className="font-weight-bold">
+        <Table.Cell>Totals</Table.Cell>
+        <Table.Cell>35</Table.Cell>
+        <Table.Cell>5</Table.Cell>
+        <Table.Cell>7</Table.Cell>
+        <Table.Cell>8</Table.Cell>
+        <Table.Cell>4</Table.Cell>
+        <Table.Cell>8</Table.Cell>
+        <Table.Cell>2</Table.Cell>
+        <Table.Cell>.334</Table.Cell>
       </Table.Row>
     </Table.Body>
   </Table>

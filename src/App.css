@@ -25,8 +25,14 @@ body {
   font-weight: 300;
   font-size: 14px;
 }
-
-
+.timeResult{
+  line-height: 2;
+  position: relative;
+  }
+.score{
+  line-height: 2;
+  position: relative;
+  }
 .col-sm-3 {
   margin: auto;
 }
@@ -35,7 +41,10 @@ body {
   padding-right: 10px;
   border: none;
 }
-
+.borderTop {
+  border-top: solid .5px;
+  border-color: lightgray;
+}
 .space {
   color: #f9fafb;
 }
@@ -58,23 +67,47 @@ td {
   font-size: 10px;
   color: #0561b0;
 }
+h1 {
+  /* background-color: rgb(0, 0, 0, .0); */
+    font-family: 'BebasNeueRegular'; 
+    font-weight: normal; 
+    font-size: 4vw; 
+    vertical-align: middle; 
+}
+h2 {
+  /* background-color: rgb(0, 0, 0, .0); */
+    font-family: 'BebasNeueRegular'; 
+    font-weight: normal; 
+    font-size: 3vw; 
+    vertical-align: middle; 
+}
 h3 {
   background-color: rgb(0, 0, 0, .0);
     font-family: 'BebasNeueRegular'; 
     font-weight: normal; 
     font-style: normal; 
- 
+    vertical-align: middle; 
 }
 .img2 {
   width: 10% !important;
 }
 .img3 {
+  
   /* width: 128px; */
   /* position: absolute; */
   top: -50%;
-  max-height: 100px !important;
-  max-width: 100px !important;
+  max-height: 80px !important;
+  max-width: 80px !important;
   object-fit: scale-down;
+}
+.img4 {
+  /* width: 128px; */
+  /* position: absolute; */
+  /* top: -50%; */
+  max-height: 80px !important;
+  max-width: 80px !important;
+  object-fit: scale-down;
+  float: right;
 }
 .record {
   font-size: 10px;

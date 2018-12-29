@@ -1,35 +1,35 @@
 import React from 'react'
-import { Grid, Image } from 'semantic-ui-react'
+import { Col, Row, Container } from 'reactstrap';
 import { className } from 'postcss-selector-parser';
 import sox from './../../img/Sox.png';
 import blue from './../../img/bluejays.png';
 
 
 const ScoreHeader = () => (
-  <Grid>
 
-    <Grid.Row columns={7}>
-
-      <Grid.Column>
-      <h3 className="pt-2 mb-0 text-right"> Boston Red Socks</h3><div className="record text-right pt-0">Away (45-34)</div>
-      </Grid.Column>
-      <Grid.Column>
-      <img className="img3" src={sox} alt={`Sox Profile Pic`}/>
-      </Grid.Column>
-      <Grid.Column>
-        <h5 className="pt-2 text-right"> Hello</h5>
-      </Grid.Column>
-      <Grid.Column>
-        Hello
-      </Grid.Column>
-      <Grid.Column>
-      <img className="img3" src={blue} alt="sox" />
-      </Grid.Column>
-      <Grid.Column>
-      <h3 className="pt-2 mb-0 text-left">Toronto Blue Jays</h3><div className="record text-left pt-0">Home (55-24)</div>
-      </Grid.Column>
-    </Grid.Row>
-  </Grid>
+  <Row>
+    <Col sm="3">
+      <h2 className="pt-2 mb-0 text-right">Boston Red Socks</h2><div className="record text-right pt-0">Away (45-34)<span className="text-danger font-weight-bold"> (-1.5)</span></div>
+    </Col>
+    <Col sm="1">
+      <img className="img3 pt-3" src={sox} alt={`Sox Profile Pic`} />
+    </Col>
+    <Col sm="1">
+      <h1 className="text-center score">5</h1>
+    </Col>
+    <Col sm="1">
+      <h3 className="pt-2 mb-0 pb-0 text-center timeResult">Final</h3><div className="record text-center pt-0">12/26</div><div className="record text-center pt-0 text-success">TOT: 7</div>
+    </Col>
+    <Col sm="1">
+      <h1 className="text-center score">2</h1>
+    </Col>
+    <Col sm="1">
+      <img className="img4 pt-3" src={blue} alt="sox" />
+    </Col>
+    <Col sm="3">
+      <h2 className="pt-2 mb-0 text-left">Toronto Blue Jays</h2><div className="record text-left pt-0">Home (55-24)<span className="text-success font-weight-bold"> (+1.5)</span></div>
+    </Col>
+  </Row>
 )
 
 export default ScoreHeader

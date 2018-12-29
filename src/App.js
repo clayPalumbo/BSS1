@@ -28,7 +28,7 @@ class App extends Component {
     </Col>
   </Row>
   <Row>
-    <Col sm="4" className="centerss mb-5 mt-5">
+    <Col sm="4" className="centerss mb-5 mt-5 border1 pb-3">
      <BoxScore />
     </Col>
   </Row>

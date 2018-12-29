@@ -1,13 +1,11 @@
 import React from 'react'
 import { Header, Image, Table } from 'semantic-ui-react'
 import sox from './../../img/Sox.png';
-import blue from './../../img/bluejays.png';
 import styles from './../Utils/Utils'
 
 
 const BoxScore = () => (
 <div className="border1">
-{/* <img className="img2" style={{styles}}src={blue} alt="sox" /> */}
  
 
   <h3 className="pt-3 pl-4"><img className="img2" src={sox} alt={`Sox Profile Pic`}/> Boston Red Socks</h3>

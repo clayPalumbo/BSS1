@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Col, Row, Container } from 'reactstrap';
+import { Col, Row, Container, Button } from 'reactstrap';
 import ScoreHeader from './components/ScoreHeader';
 import Header from './components/Header';
 import BoxScoreLeft from './components/BoxScoreLeft';
@@ -10,6 +10,7 @@ import AdOne from './components/Ads';
 import AdTwo from './components/Ads/AdTwo';
 import AdThree from './components/Ads/AdThree';
 import Footer from './components/Footer';
+
 
 class App extends Component {
   render() {
@@ -27,7 +28,6 @@ class App extends Component {
             <AdOne />
           </Col>
         </Row>
-
         <Row>
           <Col sm='1'>
           </Col>
@@ -41,6 +41,11 @@ class App extends Component {
             <AdTwo />
             <AdThree />
           </Col>
+        </Row>
+        <Row>
+        <Button color="primary" className="button1 mb-3"><a href="https://ibb.co/pZ3MGQQ">
+      <span className="button1">Click Here To View My Mock Up</span>
+    </a></Button>
         </Row>
         <Row />
         <Row>

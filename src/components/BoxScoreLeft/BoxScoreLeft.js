@@ -1,12 +1,12 @@
 import React from 'react'
 import { Header, Image, Table } from 'semantic-ui-react'
 import BaseBallLeft from '../BaseBall/BaseBallLeft';
-import styles from './../Utils/Utils'
+import HockeyLeft from '../Hockey/HockeyLeft';
 
 
 const BoxScoreLeft = () => (
  <div>
-  <BaseBallLeft />
+  <HockeyLeft />
 </div>
 )
 
